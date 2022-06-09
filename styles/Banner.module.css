@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(var(--bannerHeight)*0.75);
+    padding: 0;
+    margin: 0;
+}
+
+.headerTitle{
+    word-break: break-word;
+    color: var(--textLight);
+    font-size: var(--h1Size);
+
+    margin: 0;
+}
+
+

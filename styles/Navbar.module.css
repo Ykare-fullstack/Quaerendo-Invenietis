@@ -1,0 +1,77 @@
+.navframe
+{
+    display: flex;
+    justify-content: center;
+    height: calc(var(--bannerHeight)*0.25);;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.navFrameList{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: var(--navWidth);
+
+}
+.navItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    width: calc(var(--bannerHeight)*0.23);
+    height: calc(var(--bannerHeight)*0.23);
+    border: none;
+    transition: border 300ms;
+    color: white;
+}
+.navItem:hover{
+    border: solid 1px purple;
+}
+.navItem:hover .navItemIcon{
+    color: var(--tertiary);
+}
+.navItemIcon{
+    color: var(--textLight);
+    font-size: calc(var(--bannerHeight)*0.08);
+}
+
+.dropDownMenu{
+    position: absolute;
+    top: var(--bannerHeight);
+    left: calc(50%+200px);
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    border-radius: var(--borderRadius);
+    padding: 1rem;
+    background-color: var(--secondary);
+    transition: height var(--animationSpeed) ease;
+}
+.dropDownMenuWrapper{
+width: 100%;
+}
+.dropDownItem{
+    margin-top: 10px;
+    height: 50px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--borderRadius);
+    background-color: var(--primary);
+    transition: background var(--animationSpeed);
+    color: white;
+    padding: 0.5rem;
+}
+.dropDownItem:hover{
+    background-color: var(--tertiary);
+    color:black;
+    border: solid 1px var(--primary);
+}
+.dropDownItemIconLeft{
+    margin-right: 10px;
+}
+.dropDownItemIconRight{
+    margin-left: auto;
+}

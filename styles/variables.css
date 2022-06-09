@@ -1,0 +1,25 @@
+:root{
+    /*Theater lights*/
+    --primary: #170f2a;
+    --secondary: #6133DE;
+    --tertiary:#ED8C2B;
+    --optional:#1DDE2E;
+    --backgroundLight: rgba(23,15,42,0.5);
+
+    /*Replys tone*/
+    --text:#000000;
+    --textLight: #ffffff;
+    --h1Size: 70px;
+    --h2Size: 70px;
+    --h3Size: 30px;
+    --h4Size: 35px;
+
+    /*Scenery size*/
+    --bannerHeight: 220px;
+    --navWidth: 500px;
+    --borderRadius: 10px;
+    --dateMarkerXPosition: calc(50%+20px);
+
+    /*Machinist speed*/
+    --animationSpeed: 500ms;
+  }

@@ -1,0 +1,14 @@
+
+.leftChronology{
+    min-height: 100px;
+    grid-column: 2/4;
+    grid-row: 2;
+ 
+  }
+  .rightDescription{
+    grid-column: 6/9;
+    grid-row: 2;
+    min-height: 100px;
+
+  }
+

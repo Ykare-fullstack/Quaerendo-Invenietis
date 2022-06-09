@@ -1,0 +1,122 @@
+
+/*DropDown menu transition*/
+.menu-primary-enter{
+    position: absolute;
+    transform: translateX(-120%);
+}
+.menu-primary-enter-active{
+    transform: translateX(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.menu-primary-exit{
+    transform: translateX(0%);
+}
+.menu-primary-exit-active{
+    transform: translateX(-120%);
+    transition: all var(--animationSpeed) ease;
+}
+.menu-secondary-enter{
+    position: absolute;
+    transform: translateX(120%);
+}
+.menu-secondary-enter-active{
+    transform: translateX(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.menu-secondary-exit{
+    transform: translateX(0%);
+}
+.menu-secondary-exit-active{
+    transform: translateX(120%);
+    transition: all var(--animationSpeed) ease;
+}
+/*-------------------------------*/
+/*Scenes transition*/
+/*Act1*/
+.act1scene1separator-enter{
+    transform: scaleY(0%);
+    opacity: 0;
+    transform-origin: top;
+}
+.act1scene1separator-enter-active{
+    transform: scaleY(100%);
+    opacity: 1;
+    transform-origin: top;
+    transition: all var(--animationSpeed) ease;
+}
+.act1scene1separator-exit{
+    transform-origin: bottom;
+    opacity: 1;
+    transform: scaleY(100%);
+}
+.act1scene1separator-exit-active{
+    transform-origin: bottom;
+    transform: scaleY(0%);
+    opacity: 0;
+    transition: all var(--animationSpeed) ease;
+}
+.act1scene1left-enter{
+    opacity: 0;
+    transform: translateY(-200%);
+}
+.act1scene1left-enter-active{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.act1scene1left-exit{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.act1scene1left-exit-active{
+    opacity: 0;
+    transform: translateY(-200%);
+    transition: all var(--animationSpeed) ease;
+}
+
+.act1scene1right-enter{
+    transform: translateY(200%);
+}
+.act1scene1right-enter-active{
+    transform: translateY(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.act1scene1right-exit{
+    transform: translateY(0%);
+}
+.act1scene1right-exit-active{
+    transform: translateY(200%);
+    transition: all var(--animationSpeed) ease;
+}
+
+/*-------------------------------*/
+/*Scenes transition*/
+/*Act2*/
+.act2-scene1left-enter{
+    transform: translateX(-200%);
+}
+.act2-scene1left-enter-active{
+    transform: translateX(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.act2-scene1left-exit{
+    transform: translateX(0%);
+}
+.act2-scene1left-exit-active{
+    transform: translateX(-200%);
+    transition: all var(--animationSpeed) ease;
+}
+.act2-scene1right-enter{
+    transform: translateX(200%);
+}
+.act2-scene1right-enter-active{
+    transform: translateX(0%);
+    transition: all var(--animationSpeed) ease;
+}
+.act2-scene1right-exit{
+    transform: translateX(0%);
+}
+.act2-scene1right-exit-active{
+    transform: translateX(200%);
+    transition: all var(--animationSpeed) ease;
+}
